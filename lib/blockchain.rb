@@ -10,7 +10,11 @@ class Blockchain
     def get_latest_block
         @chain.last
     end
-    
+
+    def add_block new_block
+        @chain << new_block
+    end
+
     private
 
     def create_genesis_block
