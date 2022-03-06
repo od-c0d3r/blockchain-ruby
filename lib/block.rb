@@ -1,9 +1,9 @@
 require 'digest'
 
 class Block
-  attr_reader :hash
+  attr_reader :index, :data, :timestamp, :previous_hash, :hash
 
-  def initialize(index, data, timestamp= Time.now.inspect, previous_hash='')
+  def initialize(index, data, previous_hash='', timestamp= Time.now.inspect)
     @index = index
     @data = data
     @timestamp = timestamp

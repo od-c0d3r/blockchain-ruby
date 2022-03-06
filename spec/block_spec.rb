@@ -2,6 +2,7 @@ require 'block'
 
 RSpec.describe Block, '#initialize' do
     let(:new_block) { Block.new(1,{data: "some data"}) }
+    
     it "creates a new Block instance" do
         expected = new_block
 
