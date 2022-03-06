@@ -1,8 +1,9 @@
 require 'logger'
 require 'digest'
-Log = Logger.new(STDOUT)
 
 class Block
+  Log = Logger.new(STDOUT)
+  
   attr_reader :index, :data, :timestamp, :previous_hash, :hash
 
   def initialize(index, data, previous_hash='', timestamp= Time.now.inspect)

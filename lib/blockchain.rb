@@ -3,8 +3,9 @@ require_relative 'block'
 
 
 class Blockchain
-    attr_reader :chain
     Log = Logger.new(STDOUT)
+    
+    attr_reader :chain
     
     def initialize
         @chain = [create_genesis_block]
