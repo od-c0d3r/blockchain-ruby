@@ -7,7 +7,9 @@ class Blockchain
         @chain = [create_genesis_block]
     end
 
-    # def get_latest_block; end
+    def get_latest_block
+        @chain.last
+    end
     
     private
 
