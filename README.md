@@ -12,13 +12,13 @@ _⚠️ For education purposes only. This is by no means a complete implementati
 - [To do](#to-do)
 
 ## Oreo Coin Blockchain
-A Blockchain ruby app to keep track of OreoCoin Cryptocurrency transactions (or and type of data you want) this project is bassed on [Creating a blockchain with Javascript](https://www.youtube.com/watch?v=zVqczFZr124) tutorial, and I translated it to ruby to practice both languages. 
+A Blockchain ruby app to keep track of OreoCoin Cryptocurrency transactions ( or anY type of data you want ) this project is bassed on [Creating a blockchain with Javascript](https://www.youtube.com/watch?v=zVqczFZr124) tutorial, and I translated it to ruby to practice both languages. 
 
 ## Information
 ### What is a Block ?
 In simple words, block is an object that stores mainly three things 
 1. `Data` => Any data you want to store for example: a `transaction`
-1. It's `Hash` => a digital fingerprint
+1. Its `Hash` => a digital fingerprint
 1. Previous block's `Hash`=> previous block finger print
 
 ### What is a Blockchain ?
