@@ -12,6 +12,7 @@ class Blockchain
     end
 
     def add_block new_block
+        new_block.update_info get_latest_block.hash
         @chain << new_block
     end
 
