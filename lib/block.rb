@@ -1,8 +1,9 @@
+require 'logger'
 require 'digest'
+Log = Logger.new(STDOUT)
 
 class Block
   attr_reader :index, :data, :timestamp, :previous_hash, :hash
-  attr_writer
 
   def initialize(index, data, previous_hash='', timestamp= Time.now.inspect)
     @index = index
@@ -10,6 +11,8 @@ class Block
     @timestamp = timestamp
     @previous_hash = previous_hash
     @hash = calculate_hash
+    Log.info('Genesis Block created') if index.zero?
+    Log.info("Block created => ID##{index}") unless index.zero?
   end
 
   def update_info previous_hash

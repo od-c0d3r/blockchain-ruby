@@ -1,5 +1,5 @@
-require 'block'
-require 'blockchain'
+require_relative '../lib/block'
+require_relative '../lib/blockchain'
 
 RSpec.describe Blockchain do
     let(:new_blockchain) { Blockchain.new() }

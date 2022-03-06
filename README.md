@@ -8,6 +8,7 @@ _⚠️ For education purposes only. This is by no means a complete implementati
 - [Information](#information)
   - [What is a Block ?](#what-is-a-block-)
   - [What is a Blockchain ?](#what-is-a-blockchain-)
+- [Usages](#usages)
 - [To do](#to-do)
 
 ## Oreo Coin Blockchain
@@ -23,10 +24,18 @@ In simple words, block is an object that stores mainly three things
 ### What is a Blockchain ?
 - Easy : Blockchain is a system of recording information in a way that makes it difficult or impossible to change, hack, or cheat the system.
 - Hard : A blockchain is a decentralized, distributed, and oftentimes public, digital ledger consisting of records called blocks that is used to record any type of data (the most famous appliction is cryptocurrency transactions)
+- (Video explanation)[https://www.youtube.com/watch?v=SSo_EIwHSd4]
+
+## Usages
+- Clone the repo `git clone https://github.com/od-c0d3r/blockchain-ruby.git`
+- Run `bundle install` to install dependencies.
+- Run `ruby main.rb` on project root
 
 ## To do
+- Blockchain class
+  - Add auto id counter for adding block to the chain
+  - Verify blockchain (to prevent tampering)
 - Simple proof-of-work algorithm
-- Verify blockchain (to prevent tampering)
 - Generate wallet (private/public key)
 - Sign transactions
   
