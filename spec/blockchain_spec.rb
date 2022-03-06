@@ -1,3 +1,4 @@
+require 'block'
 require 'blockchain'
 
 RSpec.describe Blockchain do
@@ -21,6 +22,17 @@ RSpec.describe Blockchain do
             expected = new_blockchain.chain.last
 
             expect(expected).to eq new_blockchain.get_latest_block
+        end
+    end
+
+    context '#add_block' do
+        it 'adds new block to the chain' do
+            block = Block.new(2,'data')
+            new_blockchain.add_block(block)
+
+            expected = new_blockchain
+
+            expect(expected.get_latest_block).to eq block
         end
     end
 end
