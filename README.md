@@ -1,7 +1,7 @@
-![O (1)](https://user-images.githubusercontent.com/24830039/156899959-a4a50eab-9f2b-41e1-9bad-9c5aa69488c0.png)
+<img align='right' src="https://user-images.githubusercontent.com/24830039/156899959-a4a50eab-9f2b-41e1-9bad-9c5aa69488c0.png">
 
 ## Oreo Coin Blockchain
-A Blockchain app to keep track of OreoCoin Cryptocurrency transactions built with Ruby💎and love of Oreo ⚫⚪
+A Blockchain app to keep track of OreoCoin Cryptocurrency transactions (or and type of data you want).
 
 ## Contents
 - [Information](#information)
@@ -12,8 +12,8 @@ A Blockchain app to keep track of OreoCoin Cryptocurrency transactions built wit
 ### What is a Block ?
 In simple words, block is an object that stores mainly three things 
 1. `Data` => Any data you want to store for example: a `transaction`
-1. It's `Hash` => Block digital fingerprint
-1. Previous block's `Hash`
+1. It's `Hash` => a digital fingerprint
+1. Previous block's `Hash`=> previous block finger print
 
 ### What is a Blockchain ?
 - Easy : Blockchain is a system of recording information in a way that makes it difficult or impossible to change, hack, or cheat the system.
