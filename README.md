@@ -24,7 +24,7 @@ In simple words, block is an object that stores mainly three things
 ### What is a Blockchain ?
 - Easy : Blockchain is a system of recording information in a way that makes it difficult or impossible to change, hack, or cheat the system.
 - Hard : A blockchain is a decentralized, distributed, and oftentimes public, digital ledger consisting of records called blocks that is used to record any type of data (the most famous appliction is cryptocurrency transactions)
-- (Video explanation)[https://www.youtube.com/watch?v=SSo_EIwHSd4]
+- [Video explanation](https://www.youtube.com/watch?v=SSo_EIwHSd4)
 
 ## Usages
 - Clone the repo `git clone https://github.com/od-c0d3r/blockchain-ruby.git`
