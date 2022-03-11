@@ -6,7 +6,7 @@ class Block
   
   attr_reader :index, :data, :timestamp, :previous_hash, :hash
 
-  def initialize(index, data, previous_hash='', timestamp= Time.now.inspect)
+  def initialize(data, index = 0, previous_hash='', timestamp= Time.now.inspect)
     @index = index
     @data = data
     @timestamp = timestamp
@@ -16,7 +16,8 @@ class Block
     Log.info("Block created => ID##{index}") unless index.zero?
   end
 
-  def update_info previous_hash
+  def update_info previous_hash, index
+    @index = index
     @previous_hash = previous_hash
     @hash = calculate_hash
   end
