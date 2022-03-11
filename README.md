@@ -33,7 +33,7 @@ In simple words, block is an object that stores mainly three things
 
 ## To do
 - Blockchain class
-  - Add auto id counter for adding block to the chain
+  - <strike> Add auto id counter for adding block to the chain </strike> 
   - Verify blockchain (to prevent tampering)
 - Simple proof-of-work algorithm
 - Generate wallet (private/public key)
